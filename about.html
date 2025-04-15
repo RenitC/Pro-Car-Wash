@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: gray;
+      color: #333;
+    }
+
+    .navbar {
+      background-color: #003cff;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+    }
+
+    .navbar .logo {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .navbar a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 500;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    .about-header {
+      background-color: gray;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .about-header h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .about-header p {
+      font-size: 18px;
+      color: black;
+    }
+
+    .about-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .about-content h2 {
+      margin-bottom: 20px;
+      font-size: 28px;
+    }
+
+    .about-content p {
+      font-size: 16px;
+      color: black;
+      line-height: 1.7;
+      max-width: 800px;
+    }
+
+    .team {
+      margin-top: 50px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .team-member {
+      background-color: white;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 20px;
+      border-radius: 10px;
+      width: 220px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .team-member:hover {
+      transform: translateY(-5px);
+    }
+
+    .team-member img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    .team-member h4 {
+      margin: 10px 0 5px;
+    }
+
+    .team-member p {
+      font-size: 14px;
+      color: #666;
+    }
+
+    footer {
+      margin-top: 60px;
+      padding: 20px;
+      background-color: #003cff;
+      color: white;
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      .team {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <div class="navbar">
+    <a href="about.html">
+        <img src="https://marketplace.canva.com/EAF1RNJK__8/1/0/1600w/canva-colorful-modern-illustrative-automotive-car-wash-logo-ynQ8kGOb2Qg.jpg" alt="Logo" style="height: 50px; width: auto;"/>
+      </a>
+    <!--<div class="logo">Logo</div>-->
+    <div>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+
+  <!-- About Header -->
+  <section class="about-header">
+    <h1>About Us</h1>
+    <p>Welcome to Pro Car Wash a concept developed by LIV INDIA to organize the Car Cleaning segment to give the community a new definition of car care and detailing services which are not professionally followed in India. Based at Delhi our endeavour is to spread the awareness amongst car users about the Clean Car Culture & Car Hygiene.
+        Speed Car Wash is a brand which is literally going to change the way people think about car cleaning. It is a unique mechanized car cleaning concept where cars are getting pampered by the latest equipments including high pressure cleaning machines, spray injection and extraction machines, high powered vacuum cleaners, steam cleaners and so on.</p>
+  </section>
+
+  <!-- About Content -->
+  <section class="about-content">
+    <h2>Our Mission</h2>
+    <p>
+        Our mission is to provide fast, eco-friendly, and high-quality car cleaning services that exceed customer expectations. We are committed to using advanced technology, safe products, and a customer-first approach to keep vehicles spotless while preserving the environment."
+    </p><br><br>
+<h2 style="color: white">Pro Car Wash Products</h2>
+    <div class="team">
+      <div class="team-member">
+        <img src="http://www.speedcarwash.com/images/web-product/7.JPG" alt="Team Member">
+        <h4>Micro Fibre Towel</h4>
+        
+      </div>
+      <div class="team-member">
+        <img src="http://www.speedcarwash.com/images/web-product/1.JPG" alt="Team Member">
+        <h4>Foxi Clean</h4>
+
+      </div>
+      <div class="team-member">
+        <img src="http://www.speedcarwash.com/images/web-product/6.JPG" alt="Team Member">
+        <h4>Micro Fibre Glove</h4>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Your Company Name. All rights reserved.
+  </footer>
+</body>
+</html>
+
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: red;
+      color: white;
+    }
+
+    .navbar {
+      background-color: blue;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navbar .logo {
+      font-weight: bold;
+      color: white;
+    }
+
+    .navbar a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .about-section {
+      padding: 60px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h1 {
+      color: white;
+    }
+
+    p {
+      color: yellow;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">Logo</div>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+
+  <div class="about-section">
+    <h1>About Us</h1>
+    <p>
+      Welcome to our website! We are dedicated to providing the best experience for our users.
+      Our team works hard to bring you reliable, fast, and secure web applications. Whether
+      you're here to explore, learn, or connect — we're glad to have you!
+    </p>
+    <p>
+      This website is built using basic HTML and CSS with a strong emphasis on clean design and
+      user accessibility. Stay tuned for more updates as we continue to improve and grow.
+    </p>
+  </div>
+</body>
+</html>
+-->
